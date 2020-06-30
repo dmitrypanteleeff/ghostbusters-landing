@@ -1,4 +1,4 @@
-const body = document.querySelector("body");
+const body = document.querySelector("html");
 const menuBtn = document.querySelector(".header__m-menu");
 const menuBtnLineBefore = document.querySelector(".header__m-menu-line");
 const navTabletMenu = document.querySelector(".header__tablet-menu");
@@ -11,5 +11,6 @@ menuBtn.addEventListener("click",function(){
     console.log("проверка");
     let b = window.innerWidth;
     console.log(b);
+    document.documentElement.scrollTop = 0;
     
 });
