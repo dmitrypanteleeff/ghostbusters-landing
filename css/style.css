@@ -7,7 +7,7 @@ html,body{
     overflow-y: hidden;
     overflow-x: hidden;
 }
-div:active,div:focus,button:active, button:focus {
+div:active,div:focus,button:active, button:focus,img:active,img:focus {
     outline: none !important;
   }
 *{
