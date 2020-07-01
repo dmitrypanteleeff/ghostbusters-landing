@@ -532,9 +532,10 @@ header{
     top:-90px;
 }
 .bottom-wrapper__arrows{
-    width: 8%;
+    width: 10%;
     background-color: transparent;
     border: none;
+    padding: 0%;
 }
 @media (max-width:1237px){
     .top-wrapper__contaner{
